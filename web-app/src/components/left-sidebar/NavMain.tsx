@@ -29,6 +29,7 @@ import {
   type SettingsIconHandle,
 } from '@/components/animated-icon/settings'
 import { BlocksIcon, type BlocksIconHandle } from '../animated-icon/blocks'
+import { Mic } from 'lucide-react'
 import {
   BotIcon,
   type BotIconHandle,
@@ -127,6 +128,11 @@ const getNavMainItems = (
     title: 'common:hub',
     url: route.hub.index,
     animatedIcon: BlocksIcon,
+  },
+  {
+    title: 'Voice Companion',
+    url: route.voiceCompanion,
+    icon: Mic,
   },
   {
     title: 'common:settings',

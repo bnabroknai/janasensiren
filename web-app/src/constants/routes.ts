@@ -21,6 +21,7 @@ export const route = {
     assistant: '/settings/assistant',
     claude_code: '/settings/claude-code',
   },
+  voiceCompanion: '/voice-companion',
   hub: {
     index: '/hub/',
     model: '/hub/$modelId',
